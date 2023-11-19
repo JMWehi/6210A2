@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { getDoc, doc } from 'firebase/firestore';
 import { db } from './fbconfig';
@@ -48,4 +48,5 @@ function DisplayDocument() {
 }
 
 export default DisplayDocument;
+
 

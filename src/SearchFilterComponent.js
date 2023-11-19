@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { db } from './fbconfig'; // Import your Firebase configuration
+import { db } from './fbconfig'; 
 
 function SearchFilterComponent() {
   const [documents, setDocuments] = useState([]);

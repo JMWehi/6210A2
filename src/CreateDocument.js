@@ -4,7 +4,6 @@ import { db } from './fbconfig';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import validationSchema from './validation/validationSchema';
 
-
 function CreateDocument() {
   const initialValues = {
     item: '',
@@ -31,8 +30,6 @@ function CreateDocument() {
     }
   };
   
-
-
   return (
     <div>
       <h1>Create New SCP Document</h1>
@@ -56,7 +53,7 @@ function CreateDocument() {
 
           {/* Add similar fields for description, containment, and other form fields. */}
           
-          <button type="submit">Create</button>
+          <button type="submit">Create Scp Document</button>
         </Form>
       </Formik>
     </div>
